@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 ShowTimeNow – Admin Panel
 
-## Getting Started
+An intuitive admin interface for the **ShowTimeNow Movie Booking Application**. This panel enables administrators to efficiently schedule movies across multiple theatres, cities, and dates, along with uploading rich movie metadata including banners, descriptions, genres, and cast/crew details.
 
-First, run the development server:
+---
 
-```bash
+## 🌐 Live Projects
+
+- **Frontend (User App):** [ShowTimeNow](https://github.com/PrakharMishra639/ShowTimeNow)
+- **Admin Panel:** [ShowTimeNow_AdminPanel](https://github.com/PrakharMishra639/ShowTimeNow_AdminPanel)
+- **Backend API:** [ShowTimeNow_Backend](https://github.com/PrakharMishra639/ShowTimeNow_Backend)
+
+---
+
+## ✨ Features
+
+- ✅ Secure Admin Authentication
+- 🎟️ Manage Movie Showtimes by:
+  - City
+  - Theatre
+  - Date & Time
+- 🖼 Upload and Manage:
+  - Movie Banners
+  - Cast and Crew Images
+  - Descriptions and Genre
+- ⚙️ Real-time Synchronization with Backend API
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, React Toastify
+- **Backend (via API):** Node.js, Express.js, MongoDB
+- **Media Handling:** Cloudinary
+
+---
+
+## 📁 Folder Structure
+
+\`\`\`
+ShowTimeNow_AdminPanel/
+├── app/ # Next.js App Router
+├── components/ # Reusable UI Components
+├── public/ # Static Assets
+├── styles/ # Global Styles (Tailwind)
+├── .env.local # Environment Variables
+├── next.config.mjs # Next.js Configuration
+├── tailwind.config.ts # Tailwind Custom Config
+├── tsconfig.json # TypeScript Configuration
+├── package.json # Project Metadata
+└── README.md # This File
+\`\`\`
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+\`\`\`bash
+git clone https://github.com/PrakharMishra639/ShowTimeNow_AdminPanel.git
+cd ShowTimeNow_AdminPanel
+\`\`\`
+
+### 2. Install Dependencies
+
+\`\`\`bash
+npm install
+\`\`\`
+
+### 3. Configure Environment Variables
+
+Create a \`.env.local\` file in the project root:
+
+\`\`\`env
+NEXT_PUBLIC_API_BASE_URL=<your_backend_api_url>
+\`\`\`
+
+### 4. Run the Development Server
+
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔗 Project Links
 
-## Learn More
+- 🧑‍💻 **Frontend App:** [ShowTimeNow](https://github.com/PrakharMishra639/ShowTimeNow)
+- 🎬 **Backend API:** [ShowTimeNow_Backend](https://github.com/PrakharMishra639/ShowTimeNow_Backend)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Prakhar Mishra**
 
-## Deploy on Vercel
+- GitHub: [@PrakharMishra639](https://github.com/PrakharMishra639)
+- Email: mprakhar713@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Let me know if you want a version of this `README.md` formatted for PDF or DOCX.
