@@ -4,12 +4,6 @@ An intuitive admin interface for the **ShowTimeNow Movie Booking Application**. 
 
 ---
 
-## 🌐 Live Projects
-
-- **Frontend (User App):** [ShowTimeNow](https://github.com/PrakharMishra639/ShowTimeNow)
-- **Admin Panel:** [ShowTimeNow_AdminPanel](https://github.com/PrakharMishra639/ShowTimeNow_AdminPanel)
-- **Backend API:** [ShowTimeNow_Backend](https://github.com/PrakharMishra639/ShowTimeNow_Backend)
-
 ---
 
 ## ✨ Features
@@ -87,7 +81,7 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔗 Project Links
+## 🔗 Related Repositories
 
 - 🧑‍💻 **Frontend App:** [ShowTimeNow](https://github.com/PrakharMishra639/ShowTimeNow)
 - 🎬 **Backend API:** [ShowTimeNow_Backend](https://github.com/PrakharMishra639/ShowTimeNow_Backend)
