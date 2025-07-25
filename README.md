@@ -37,19 +37,20 @@ An intuitive admin interface for the **ShowTimeNow Movie Booking Application**. 
 
 ## 📁 Folder Structure
 
-\`\`\`
+```
 ShowTimeNow_AdminPanel/
-├── app/ # Next.js App Router
-├── components/ # Reusable UI Components
-├── public/ # Static Assets
-├── styles/ # Global Styles (Tailwind)
-├── .env.local # Environment Variables
-├── next.config.mjs # Next.js Configuration
-├── tailwind.config.ts # Tailwind Custom Config
-├── tsconfig.json # TypeScript Configuration
-├── package.json # Project Metadata
-└── README.md # This File
-\`\`\`
+├── app/
+├── components/
+├── public/
+├── styles/
+├── .env.local
+├── next.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+├── package.json
+└── README.md
+
+```
 
 ---
 
@@ -57,30 +58,30 @@ ShowTimeNow_AdminPanel/
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/PrakharMishra639/ShowTimeNow_AdminPanel.git
 cd ShowTimeNow_AdminPanel
-\`\`\`
+```
 
 ### 2. Install Dependencies
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Configure Environment Variables
 
 Create a \`.env.local\` file in the project root:
 
-\`\`\`env
+```env
 NEXT_PUBLIC_API_BASE_URL=<your_backend_api_url>
-\`\`\`
+```
 
 ### 4. Run the Development Server
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Visit: [http://localhost:3000](http://localhost:3000)
 
