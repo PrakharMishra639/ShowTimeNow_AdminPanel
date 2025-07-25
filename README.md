@@ -102,5 +102,3 @@ Visit: [http://localhost:3000](http://localhost:3000)
 - Email: mprakhar713@gmail.com
 
 ---
-
-> Let me know if you want a version of this `README.md` formatted for PDF or DOCX.
